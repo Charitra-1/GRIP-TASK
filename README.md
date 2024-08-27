@@ -50,6 +50,12 @@ Ensure you have Python installed on your system. You can download Python from [p
     ```bash
     streamlit run main.py
     ```
+    
+3. **View the App: You can now view your Streamlit app in your browser**:
+    ```bash
+   vLocal URL: http://localhost:8501
+    ```
+
 
 ## Notes
 
