@@ -1,4 +1,4 @@
-# Interactive Prediction App Live - https://grip-task-machine-learning.streamlit.app
+# [Interactive Prediction App Live](https://grip-task-machine-learning.streamlit.app)
 
 ## Overview 
 
