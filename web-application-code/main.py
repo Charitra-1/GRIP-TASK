@@ -124,7 +124,7 @@ def scores_page():
     st.write("Enter the number of hours studied to predict the score.")
 
     # Load dataset
-    df = pd.read_csv("./score.csv")
+    df = pd.read_csv("web-application-code/score.csv")
     X = df[["Hours"]]
     y = df["Scores"]
 
