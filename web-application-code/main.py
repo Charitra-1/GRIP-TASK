@@ -124,7 +124,7 @@ def scores_page():
     st.write("Enter the number of hours studied to predict the score.")
 
     # Load dataset
-    df = pd.read_csv("score.csv")
+    df = pd.read_csv("./score.csv")
     X = df[["Hours"]]
     y = df["Scores"]
 
@@ -231,7 +231,7 @@ def iris_page():
     st.write("Enter the Iris flower details to predict its species.")
 
     # Load Iris dataset
-    iris_df = pd.read_csv("Iris.csv")  # Load the dataset
+    iris_df = pd.read_csv("web-application-code/Iris.csv")  # Load the dataset
     X_iris = iris_df.drop(columns=["Species", "Id"])  # Drop the "Species" and "Id" columns
     y_iris = iris_df["Species"]
 
