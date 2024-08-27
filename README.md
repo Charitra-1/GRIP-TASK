@@ -14,38 +14,44 @@ Ensure you have Python installed on your system. You can download Python from [p
 ## Installation
 
 1. **Clone the Repository** (if applicable):
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
-   Create a Virtual Environment (optional but recommended):
+    ```bash
+    git clone https://github.com/Charitra-1/GRIP-TASK.git
+    cd GRIP-TASK
+    ```
 
-bash
-Copy code
-python -m venv venv
-Activate the Virtual Environment:
+2. **Create a Virtual Environment** (optional but recommended):
+    ```bash
+    python -m venv venv
+    ```
 
-On Windows:
-bash
-Copy code
-venv\Scripts\activate
-On macOS/Linux:
-bash
-Copy code
-source venv/bin/activate
-Install Dependencies: Ensure you have pip installed, then install the necessary packages:
+3. **Activate the Virtual Environment**:
+    - On **Windows**:
+      ```bash
+      venv\Scripts\activate
+      ```
+    - On **macOS/Linux**:
+      ```bash
+      source venv/bin/activate
+      ```
 
-bash
-Copy code
-pip install streamlit pandas scikit-learn matplotlib seaborn
-Running the Streamlit App
-Navigate to the App Directory:
+4. **Install Dependencies**:
+    ```bash
+    pip install streamlit pandas scikit-learn matplotlib seaborn
+    ```
 
-bash
-Copy code
-cd <directory-containing-app>
-Run the Streamlit App:
+## Running the Streamlit App
 
-bash
-Copy code
-streamlit run main.py
+1. **Navigate to the App Directory** (if needed):
+    ```bash
+    cd GRIP-TASK
+    ```
+
+2. **Run the Streamlit App**:
+    ```bash
+    streamlit run main.py
+    ```
+
+## Notes
+
+- Ensure that you have all required dependencies installed before running the app.
+- For any issues or feature requests, please refer to the project's issue tracker or contact the maintainers.
